@@ -1,9 +1,9 @@
 :root {
-  --bckgrnd: #2F4F4F ;
-  --container: #2F4F4F ;
+  --bckgrnd: #ffe600 ;
+  --container: #ffe600 ;
 
   /*text colors*/  
-  --text: #ffffff;
+  --text: #000000e8;
   --black: #839496;
   --negative: #fdf6e3;
 
@@ -108,7 +108,7 @@ a {
   font-weight: bold;
   margin: 0;
   grid-column: 2 / 2;
-  text-align:center;
+  text-align:centerxs;
   grid-row: 2 / 2;
   line-height: 1em;
   
@@ -131,8 +131,8 @@ a {
 
 .item2 {
   color: var(--text); 
-  grid-row: 5 / 5; 
-  grid-column: 1/1;
+  grid-row: 4 / 4; 
+  grid-column: 3.5/4;
 }
 
 .item3 {
